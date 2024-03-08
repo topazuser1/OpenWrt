@@ -30,7 +30,7 @@ rm -rf feeds/luci/applications/luci-app-serverchan
 # 添加额外插件
 git clone --depth=1 https://github.com/kongfl888/luci-app-adguardhome package/luci-app-adguardhome
 git clone --depth=1 -b openwrt-18.06 https://github.com/tty228/luci-app-wechatpush package/luci-app-serverchan
-git clone --depth=1 https://github.com/ilxp/luci-app-ikoolproxy package/luci-app-ikoolproxy
+# git clone --depth=1 https://github.com/ilxp/luci-app-ikoolproxy package/luci-app-ikoolproxy
 git clone --depth=1 https://github.com/esirplayground/luci-app-poweroff package/luci-app-poweroff
 git clone --depth=1 https://github.com/destan19/OpenAppFilter package/OpenAppFilter
 git clone --depth=1 https://github.com/Jason6111/luci-app-netdata package/luci-app-netdata
@@ -41,12 +41,12 @@ svn export https://github.com/immortalwrt/luci/branches/openwrt-18.06/applicatio
 # svn export https://github.com/syb999/openwrt-19.07.1/trunk/package/network/services/msd_lite package/msd_lite
 
 # 科学上网插件
-git clone --depth=1 https://github.com/fw876/helloworld package/luci-app-ssr-plus
-git clone --depth=1 https://github.com/jerrykuku/luci-app-vssr package/luci-app-vssr
-git clone --depth=1 https://github.com/jerrykuku/lua-maxminddb package/lua-maxminddb
+# git clone --depth=1 https://github.com/fw876/helloworld package/luci-app-ssr-plus
+# git clone --depth=1 https://github.com/jerrykuku/luci-app-vssr package/luci-app-vssr
+# git clone --depth=1 https://github.com/jerrykuku/lua-maxminddb package/lua-maxminddb
 git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall package/openwrt-passwall
 svn export https://github.com/xiaorouji/openwrt-passwall/branches/luci/luci-app-passwall package/luci-app-passwall
-svn export https://github.com/xiaorouji/openwrt-passwall2/trunk/luci-app-passwall2 package/luci-app-passwall2
+# svn export https://github.com/xiaorouji/openwrt-passwall2/trunk/luci-app-passwall2 package/luci-app-passwall2
 svn export https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
 
 # Themes
@@ -88,8 +88,8 @@ svn export https://github.com/sbwml/luci-app-alist/trunk/luci-app-alist package/
 svn export https://github.com/sbwml/luci-app-alist/trunk/alist package/alist
 
 # iStore
-svn export https://github.com/linkease/istore-ui/trunk/app-store-ui package/app-store-ui
-svn export https://github.com/linkease/istore/trunk/luci package/luci-app-store
+# svn export https://github.com/linkease/istore-ui/trunk/app-store-ui package/app-store-ui
+# svn export https://github.com/linkease/istore/trunk/luci package/luci-app-store
 
 # 在线用户
 svn export https://github.com/haiibo/packages/trunk/luci-app-onliner package/luci-app-onliner
