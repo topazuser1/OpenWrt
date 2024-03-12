@@ -10,8 +10,7 @@ name: Rockchip R5C OpenWrt
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: 0 18 * * *
+  
 
 env:
   SOURCE_URL: https://github.com/coolsnowwolf/lede
